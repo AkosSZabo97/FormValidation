@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: thin;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#fName, #lName{
+    width: 100%;
+}
+
+.textInput {
+    padding-top: 3%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25rem;
+}
+
+.img {
+    margin-top: 2%;
+    margin-right: 2%;
+    width: auto;
+}
+
+.gParagraph{
+    float: left;
+}
+
+.btn{
+    float: right;
+}
+
+.textInput.success input{
+    border-color: #2ecc71;
+}
+
+.textInput.error input{
+    border-color: #e74c3c;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <link rel="stylesheet" href="styleDOM.css">
+    <script src="mainDOM.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div id="error__message">
+            
+        </div>
+
+        <form id="myForm">
+            <div class="textInput">
+                <input type="text" placeholder="First Name" id="fName">
+            </div>
+            <div class="textInput">
+                <input type="text" placeholder="Last Name" id="lName">
+            </div>
+            <div class="radioInput">
+                <p class="gParagraph">Gender</p>
+                <br>
+                <input id="genderRadio" type="radio" name="gender" value="male">M
+                <br>
+                <input id="genderRadio" type="radio" name="gender" value="female">F
+            </div>
+            <div class="boxInput">
+                <textarea id="textBox" cols="40" rows="10" placeholder="Your message here..."></textarea>
+            </div>
+            <div class="btn">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        <div class="img">
+            <img src="greyBG.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
