@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation with AJAX</title>
+    <link rel="stylesheet" href="styleAJAX.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+    <script src="mainAJAX.js"></script>
+</head>
+<body>
+    <div hidden>
+        
+    </div>
+    <form id="basic-form">
+        <div class="textInput">
+            <input id="name" name="fName" minlength="1" type="text" placeholder="First Name" size="30">
+            <br>
+            <br>
+            <input id="name" name="lName" minlength="1" type="text" placeholder="Second Name" size="30">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender</label>
+            <br>
+            <input type="radio" name="gender" value="male">M
+            <input type="radio" name="gender" value="female">F
+        </div>
+        <div>
+            <textarea name="message" id="textArea" cols="33" rows="7"   ></textarea>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
+        
+
+    </form>
+</body>
+</html>
